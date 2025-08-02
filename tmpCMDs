@@ -1,0 +1,6 @@
+self.nfc.powerOff()
+self.nfc.deconfigure()
+self.nfc.selectISO14443A(self)  - # of cards return ISO14443A(self.tag[0].nti.nai)
+
+
+READER_LIBNFC = 0x08
